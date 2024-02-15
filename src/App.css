@@ -1,0 +1,39 @@
+
+[data-theme="dark"]{
+  --body-background:black;
+  --color:white;
+  --icon-color:white;
+}
+
+[data-theme="light"]{
+  --body-background:white;
+  --color:black;
+  --icon-color:black;
+}
+.theme-icon-color{
+  color: var(--icon-color);
+  font-size: 3rem;
+}
+
+
+body{
+  background-color: var(--body-background);
+}
+
+*{
+  transition: all .3s ease-in-out;
+}
+.for_light_theme{
+  --primary-color:blue;
+  --secondary-color:gray;
+  --font-color:red;
+  --bg-color:black;
+  --heading-color:rgb(36, 111, 102);
+}
+.for_light_theme{
+  --primary-color:rgb(58, 160, 228);
+  --secondary-color:rgba(128, 128, 128, 0.399);
+  --font-color:rgba(255, 23, 23, 0.655);
+  --bg-color:rgba(0, 0, 0, 0.599);
+  --heading-color:rgb(36, 111, 102);
+}
